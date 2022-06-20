@@ -543,7 +543,9 @@ $primarycolor: #40096D;
   }
 }
 
-
+.foot_mob {
+  display: none;
+}
 
 }
 
@@ -626,6 +628,34 @@ $primarycolor: #40096D;
 
   #foot {
     display: none;
+  }
+  .foot_mob {
+    display: block;
+    height: 50vh;
+    background-color: #1A1A1A;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    .redes {
+      text-align: center;
+      .uil {
+        font-size: 40px;
+        color: white;
+      }
+    }
+  }
+  #portifolio {
+    margin-bottom: 150rem;
+  }
+
+  #services {
+    margin-bottom: 45rem;
+    .main_service {
+      .card_service {
+        width: 300px;
+      }
+    }
   }
  
 }

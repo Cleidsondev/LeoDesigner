@@ -654,6 +654,9 @@ body {
   #nav_mob .menu__item:hover {
     background-color: #CFD8DC;
   }
+  .foot_mob {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1421px) {
@@ -726,6 +729,35 @@ body {
 @media screen and (max-width: 450px) {
   #foot {
     display: none;
+  }
+  .foot_mob {
+    display: block;
+    height: 50vh;
+    background-color: #1A1A1A;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .foot_mob .redes {
+    text-align: center;
+  }
+  .foot_mob .redes .uil {
+    font-size: 40px;
+    color: white;
+  }
+  #portifolio {
+    margin-bottom: 150rem;
+  }
+  #services {
+    margin-bottom: 45rem;
+  }
+  #services .main_service .card_service {
+    width: 300px;
   }
 }
 /*# sourceMappingURL=style.css.map */
