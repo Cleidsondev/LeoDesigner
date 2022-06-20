@@ -1,5 +1,9 @@
 @import url(/src/css/texture.css);
 
+body {
+  overflow-x: hidden;
+}
+
 $primarycolor: #40096D;
 
 @mixin semibold {
@@ -620,17 +624,8 @@ $primarycolor: #40096D;
 
 @media screen and (max-width: 450px) {
 
+  #foot {
+    display: none;
+  }
  
-
-  #nav_mob {
-    padding: 0;
-  }
-  .nav__bar {
-    background-color: #3a86ff;
-    margin: 0;
-  }
-
-  #portifolio {
-    background-color: #3a86ff;
-  }
 }
